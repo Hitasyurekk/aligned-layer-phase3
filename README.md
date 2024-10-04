@@ -43,7 +43,7 @@ sudo apt update && sudo apt install pkg-config libssl-dev
 
 [ -d ~/.aligned_keystore ] && rm -rf ~/.aligned_keystore && echo "Deleted existing directory ~/.aligned_keystore." ; mkdir -p ~/.aligned_keystore && cast wallet import ~/.aligned_keystore/keystore0 --interactive
 
-## 5. Adım Aligned dosyalarını indirme 
+##  5. Adım Aligned dosyalarını indirme 
 
 git clone https://github.com/yetanotherco/aligned_layer.git
 
