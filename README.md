@@ -1,5 +1,8 @@
 # aligned-layer-phase3
 
+Ben burada github codespace kullandım sizde kullanabilirsiniz. 
+
+https://github.com/codespaces
 
 ## 1. Adım Rust kurulum
 
