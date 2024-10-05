@@ -24,7 +24,6 @@ sudo apt update && sudo apt install pkg-config libssl-dev
 
 [ -d aligned_layer ] && rm -rf aligned_layer && echo "Deleted existing aligned_layer directory." ; git clone https://github.com/yetanotherco/aligned_layer.git && cd aligned_layer/examples/zkquiz
 
-cd aligned_layer/examples/zkquiz
 
 make answer_quiz KEYSTORE_PATH=~/.aligned_keystore/keystore0
 
