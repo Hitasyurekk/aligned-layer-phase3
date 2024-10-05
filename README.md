@@ -8,20 +8,8 @@ wget https://raw.githubusercontent.com/Hitasyurekk/aligned-layer-phase3/main/rus
 
 ## 2. Adım Foundry kurulumu
 
+curl -L -o foundry.sh https://raw.githubusercontent.com/Hitasyurekk/aligned-layer-phase3/main/foundry.sh && chmod +x foundry.sh && ./foundry.sh
 
- 1. Sistem güncellemeleri
-sudo apt update
-sudo apt upgrade -y
-
- 2. Foundry kurulumu
-curl -L https://foundry.paradigm.xyz | bash
-
-3. Ortam değişkenlerini ayarlama
-echo 'export PATH="$HOME/.foundry/bin:$PATH"' >> ~/.bashrc
-source ~/.bashrc
-
- 4. Kurulumu doğrulama
-foundryup
 
 ## 3. Adım Config kurulum
 
@@ -34,7 +22,7 @@ sudo apt update && sudo apt install pkg-config libssl-dev
 
 ## 5. Adım Aligned dosyalarını indirme 
 
-git clone https://github.com/yetanotherco/aligned_layer.git
+[ -d aligned_layer ] && rm -rf aligned_layer && echo "Deleted existing aligned_layer directory." ; git clone https://github.com/yetanotherco/aligned_layer.git && cd aligned_layer/examples/zkquiz
 
 cd aligned_layer/examples/zkquiz
 
