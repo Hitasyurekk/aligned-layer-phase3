@@ -18,6 +18,10 @@ sudo apt update && sudo apt install pkg-config libssl-dev
 
 ## 4. Adım private key girme 
 
+npm install -g cast-cli
+
+source ~/.bashrc
+
 [ -d ~/.aligned_keystore ] && rm -rf ~/.aligned_keystore && echo "Deleted existing directory ~/.aligned_keystore." ; mkdir -p ~/.aligned_keystore && cast wallet import ~/.aligned_keystore/keystore0 --interactive
 
 ## 5. Adım Aligned dosyalarını indirme 
