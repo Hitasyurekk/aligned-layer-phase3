@@ -3,19 +3,8 @@
 
 ## 1. Adım Rust kurulum
 
- 1. Dosyayı indiri
-wget https://raw.githubusercontent.com/Hitasyurekk/aligned-layer-phase3/main/rust
 
- 2. Dosyayı çalıştırılabilir hale getirin
-chmod +x rust
-
- 3. Scripti çalıştırın
-./rust
-
- 4. Kurulumun doğruluğunu kontrol edin
-rustc --version
-cargo --version
-
+wget https://raw.githubusercontent.com/Hitasyurekk/aligned-layer-phase3/main/rust.sh && chmod +x rust.sh && ./rust.sh
 
 ## 2. Adım Foundry kurulumu
 
